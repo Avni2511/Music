@@ -1,0 +1,179 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1e9e9;
+    color: #333;
+  
+  
+}
+
+
+
+header {
+    background-color: #121111;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347; 
+}
+
+
+#home {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#home h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #030303;
+}
+
+#home p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+
+footer {
+    background-color: #1a1717;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 0;
+        background-color: #ff6347;
+ 
+
+}
+}
+    
+
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #0e0808;
+}
+
+
+header {
+    background-color: #910525;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Tour Section Styles */
+#tour {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #8813e1af;
+    margin-top: 20px;
+}
+
+#tour h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#tour ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tour ul li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#tour ul li:hover {
+    background-color: #ff6347;
+} 
